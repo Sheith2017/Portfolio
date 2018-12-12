@@ -1,5 +1,65 @@
-.upper{
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+}
+.skills{grid-column: span 2 / auto;}
+.project1{grid-column: span 2 / auto;}
+.last{grid-column: span 2 / auto;}
+
+#savant{
+	width: 30%;
+	border-radius: 50%;
+	padding-left: 20px;
+	
+}
+.skills{
+	background: grey;
+}
+ul{
+	 list-style-type: none;
+}
+footer{
+	background: grey;
+}
+.touch{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	margin-left: 100px;
+
+}
+.top-left{
+	padding-left: 35%;
+}
+.middle{
+	margin-left: 100px;
+	padding-top: 15%;
+}
+.skills{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px;
+	padding: 5%;
+}
+#big-pro1{
+	text-align: center;
+	font-size: 50px;
+}
+.pro1{
+	margin-left: 100px;
+}
+.pro2{
+	text-align: end;
+}
+footer{grid-column: span 2 / auto;}
+footer{
+	text-align: center;
+
+}
+body{
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top: 0px;
 }
